@@ -1,6 +1,12 @@
 #Este archivo nos va contener los archivos que no queremos subir a Git Hub
 # porque pueden causar conflictos
+
+datasources/mongodb.datasource.ts
+
 # Logs
+
+
+
 logs
 *.log
 npm-debug.log*
