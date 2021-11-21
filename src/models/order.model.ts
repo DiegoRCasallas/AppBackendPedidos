@@ -10,6 +10,13 @@ export class Order extends Entity {
     generated: true,
   })
   id?: string;
+  
+  @property({
+    type: 'string',
+    required: true,
+  })
+  id_product: string;
+
   @property({
     type: 'number',
     required: true,
